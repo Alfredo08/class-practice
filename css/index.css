@@ -1,0 +1,106 @@
+body{
+	font-family : Verdana, sans-serif;
+	font-size : 13px;
+	color: #4F545F;
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	background-color: #55B3C5;
+	margin: 0;
+	padding: 20px;
+	color: white;
+}
+
+fieldset{
+	margin: 20px;
+	padding: 20px;
+	border: 2px dashed #DDD;
+}
+
+legend{
+	font-size: 18px;
+	font-weight: 900;
+}
+
+form span{
+	color: #42579C;
+	border: 1px solid #6278B0;
+	padding: 20px 40px;
+	display: block;
+	background: url('./../img/infoicon.png') no-repeat center left;
+}
+
+.formElement{
+	padding: 5px 10px;
+	width: 300px;
+}
+
+#country{
+	width: 250px;
+}
+
+.button{
+	text-align: center;
+	padding: 10px 20px;
+	font-size: 16px;
+	color: white;
+	margin-right: 20px;
+	border: 0;
+	border-radius: 5px;
+}
+
+.button:hover{
+	cursor: pointer;
+	opacity: 0.85;
+}
+
+#submitButton{
+	background-color: #56C56F;
+}
+
+#resetButton{
+	background-color: #D9534F;
+}
+
+.menu{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color:  #CCC;
+	overflow: hidden;
+}
+
+.menu > li{
+	float: left;
+	padding: 20px;
+}
+
+.menu > li:hover, .selected{
+	cursor: pointer;
+	color: white;
+	background-color: #999;
+}
+
+.error{
+	color: red;
+	margin-top: 15px;
+	font-size: 16px;
+	font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

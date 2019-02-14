@@ -1,0 +1,101 @@
+<html>
+	<head>
+		<title>
+			This is my first html page
+		</title>
+		<link href="./css/index.css" rel="stylesheet" type="text/css" > 
+	</head>	
+	<body>
+		<header>
+			<h1> 
+				Registry Form 
+			</h1>
+			<nav>
+				<ul class="menu">
+					<li> 
+						Home 
+					</li>
+					<li> 
+						About the site 
+					</li>
+					<li class="selected"> 
+						Registry 
+					</li>
+					<li> 
+						Contact 
+					</li>
+					<li> 
+						Copyright 
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<form id="registryForm">
+				<fieldset>
+					<legend>New Account Registry</legend>
+
+					<span> 
+						Your information is safe with us 
+					</span>
+					<div>
+						<p>
+							Complete name
+						</p>
+						<input id="userName" class="formElement" type="text" /> 
+					</div>
+					<div>
+						<p>Email</p>
+						<input id="userEmail" class="formElement" type="email"/>
+					</div>
+					<div>
+						<p>Password</p>
+						<input id="userPassword" class="formElement" type="password"/>
+					</div>
+					<div>
+						<p>Password Confirmation</p>
+						<input id="userPasswordConfirmation" class="formElement" type="password"/>
+					</div>
+					<div>
+						<p>Country</p>
+						<select id="country">
+							<option value="0"> Select a country... </option>
+							<option value"1"> Mexico </option>
+							<option value="2"> USA </option>
+						</select>
+					</div>
+					<div>
+						<p>
+							Gender 
+						</p> 
+						<div>
+							<label for="masculineGender">
+								<input id="masculineGender" type="radio" name="gender" value="M"/> Masculine 
+							</label>
+						</div>
+						<div>
+							<label for="femenineGender">
+								<input id="femenineGender" type="radio" name="gender" value="F"/> Feminine
+							</label>
+						</div>
+					</div>
+					<div>
+						<input class="button" id="resetButton" type="submit" value="Reset"/>
+						<input class="button" id="submitButton" type="submit" value="Submit"/>
+					</div>
+					<div id="errorLog" class="error">
+					</div>
+				</fieldset>
+			</form>
+		</main>
+		<footer>
+			Footer would go here
+		</footer>
+		<script type="text/javascript" src="./js/index.js"></script>
+	</body>	
+</html>
+
+
+
+
+
